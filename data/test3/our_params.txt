@@ -1,0 +1,46 @@
+setting:
+
+use_coarse_reg: 1
+use_fine_reg: 1
+use_symm_ppl: 1
+data_use_robust_weight: 1
+w_smo: 0.01
+w_rot: 0.0001
+w_arap_coarse: 500
+w_arap_fine: 200
+uni_sample_radio: 10
+use_geodesic_dist: 0
+print_each_step_info: 0
+out_gt_file
+out_each_step_info../data/test3/our
+
+
+output:
+
+mesh_scale: 1
+num_sample_nodes: 45
+non_rigid_init_time: 0.489925
+init_gt_mean_errs: 0.0386353
+init_gt_max_errs: 0.120987
+Data_nu: 0.0118952
+
+
+default:
+
+max_outer_iters: 30
+stop_coarse: 0.001
+stop_fine: 0.0001
+Data_initk: 1
+Data_endk: 0.57735
+calc_gt_err: 1
+use_normal_reject: 0
+use_distance_reject: 0
+normal_threshold: 1.0472
+distance_threshold: 0.05
+
+
+useless:
+
+use_landmark: 0
+use_fixedvex: 0
+rigid_iters: 0
