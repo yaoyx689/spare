@@ -5,9 +5,10 @@ Authors: [Yuxin Yao](https://yaoyx689.github.io/), [Bailin Deng](http://www.bden
 
 ### <a href="https://arxiv.org/abs/2405.20188" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1ms8ZI5wAM5MewnFlD6Xhlv5hf_MT6-kx/view?usp=sharing" target="_blank">Video</a> | <a href="" target="_blank">Data (coming soon)</a>
 
-![demo](images/demo.png)
-
-![demo](images/tracking_video.gif)
+- Non-rigid registration of two surfaces.
+  ![demo](images/demo.png)
+- Non-rigid registration of a motion sequence frame by frame using a template surface.
+  ![demo](images/tracking_video.gif)
 
 This code is protected under patent. It can be only used for research purposes. If you are interested in business purposes/for-profit use, please contact Juyong Zhang (the corresponding author, email: juyong@ustc.edu.cn).
 
