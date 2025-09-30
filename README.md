@@ -1,9 +1,9 @@
 # SPARE
-This repository includes the source code of the paper [SPARE: Symmetrized Point-to-Plane Distance for Robust Non-Rigid Registration](https://arxiv.org/abs/2405.20188).
+This repository includes the source code of the paper [SPARE: Symmetrized Point-to-Plane Distance for Robust Non-Rigid 3D Registration](https://arxiv.org/abs/2405.20188).
 
 Authors: [Yuxin Yao](https://yaoyx689.github.io/), [Bailin Deng](http://www.bdeng.me/), [Junhui Hou](https://sites.google.com/site/junhuihoushomepage) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/).
 
-### <a href="https://arxiv.org/abs/2405.20188" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1ms8ZI5wAM5MewnFlD6Xhlv5hf_MT6-kx/view?usp=sharing" target="_blank">Video</a> | <a href="" target="_blank">Data (coming soon)</a>
+### <a href="https://arxiv.org/abs/2405.20188" target="_blank">Paper</a> | <a href="https://drive.google.com/file/d/1ms8ZI5wAM5MewnFlD6Xhlv5hf_MT6-kx/view?usp=sharing" target="_blank">Video</a> | <a href="https://huggingface.co/datasets/yaoyx689/SPARE-non-rigid-reg/tree/main" target="_blank">Data</a>
 
 - Non-rigid registration of two surfaces.
   ![demo](images/demo.png)
@@ -15,7 +15,7 @@ This code is protected under patent. It can be only used for research purposes. 
 ### TODO
 
 - [x] Release code. 
-- [ ] Release processed data and evaluation code.
+- [x] Release processed data and evaluation code.
 - [ ] Release GPU-accelerated version. 
 
 
@@ -86,10 +86,13 @@ This code supports non-rigid registration with meshes or point clouds. When the 
 ### Citation 
 If you find our code or paper helps, please consider citing:
 ```
-@article{yao2024spare,
+@article{yao2025spare,
   author    = {Yao, Yuxin and Deng, Bailin and Hou, Junhui and Zhang, Juyong},
-  title     = {SPARE: Symmetrized Point-to-Plane Distance for Robust Non-Rigid Registration},
-  journal   = {Arxiv},
-  year      = {2024},
+  title     = {SPARE: Symmetrized Point-to-Plane Distance for Robust Non-Rigid 3D Registration},
+  journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year      = {2025},
+  volume    = {},
+  number    = {},
+  pages     = {1-18},
 }
 ```
