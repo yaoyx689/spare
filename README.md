@@ -16,7 +16,6 @@ This code is protected under patent. It can be only used for research purposes. 
 
 - [x] Release code. 
 - [x] Release processed data and evaluation code.
-- [ ] Release GPU-accelerated version. 
 
 
 ## Dependencies
